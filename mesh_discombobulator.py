@@ -665,9 +665,9 @@ class discombob_help(Menu):
         layout.separator()
         layout.label(text="Limitations:", icon="MOD_EXPLODE")
         layout.label("Be careful with the repeat protusions setting")
-        layout.label("(Runs the reqursively)")
+        layout.label("(Runs reqursively)")
         layout.label("If possible, avoid using on a high polycount base mesh")
-        layout.label("(It can run out of memory and took a long time to compute)")
+        layout.label("(It can run out of memory and take a long time to compute)")
 
 
 class VIEW3D_OT_tools_discombobulate(Operator):
